@@ -20,8 +20,28 @@ body {
     color: white;
     padding: 1rem;
     border-radius: 8px;
+    display: flex;
+    align-self: baseline;
   }
   
   .icon {
     font-size: 4rem;
   }
+
+.emojis{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+}
+
+.emoji h2{
+    display: flex;
+    
+}
+
