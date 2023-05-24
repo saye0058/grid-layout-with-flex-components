@@ -8,12 +8,12 @@ body {
     border-radius: 8px;
     padding: 1rem;
   }
-  
+
   .emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
     display: flex;
-    align
+    align-content: center;
   }
   
   .emoji a {
@@ -30,12 +30,11 @@ body {
     font-size: 4rem;
     display: flex;
     justify-content: center;
-    
   }
 
-.emojis{
+  .emojis{
     display: grid;
     grid-template-columns:1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 10px;
-}
+  }
